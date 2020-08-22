@@ -1,0 +1,96 @@
+2020-08-22 12:23:34,595 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-22 12:23:35,171 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888/
+2020-08-22 12:23:35,338 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=gatewaybalanceador, profiles=[default], label=null, version=null, state=null
+2020-08-22 12:23:35,340 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:/var/centralConf/gatewaybalanceador.properties'}]
+2020-08-22 12:23:35,427 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-22 12:23:37,467 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-22 12:23:37,468 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-22 12:23:37,469 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-22 12:23:37,643 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-22 12:23:37,813 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-22 12:23:37,816 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-22 12:23:37,834 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@77bb916f
+2020-08-22 12:23:38,210 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-22 12:23:38,210 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-22 12:23:39,635 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2020-08-22 12:23:40,741 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2020-08-22 12:23:40,742 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2020-08-22 12:23:43,871 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2020-08-22 12:23:43,873 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2020-08-22 12:23:44,044 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2020-08-22 12:23:44,081 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2020-08-22 12:23:44,083 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2020-08-22 12:23:44,083 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2020-08-22 12:23:44,084 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2020-08-22 12:23:44,086 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2020-08-22 12:23:44,086 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2020-08-22 12:23:44,087 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2020-08-22 12:23:44,384 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2020-08-22 12:23:44,391 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2020-08-22 12:23:44,396 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-08-22 12:23:44,403 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1598113424401 with initial instances count: 0
+2020-08-22 12:23:44,410 INFO com.netflix.discovery.DiscoveryClient$3 [main] Saw local status change event StatusChangeEvent [timestamp=1598113424410, current=UP, previous=STARTING]
+2020-08-22 12:23:44,416 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-22 12:23:44,446 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAYBALANCEADOR/10.0.0.6:gatewaybalanceador:8080: registering service...
+2020-08-22 12:23:44,520 INFO org.springframework.boot.StartupInfoLogger [main] Started GatewaybalanceadorApplication in 10.771 seconds (JVM running for 12.784)
+2020-08-22 12:23:44,535 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAYBALANCEADOR/10.0.0.6:gatewaybalanceador:8080 - registration status: 204
+2020-08-22 12:23:44,761 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(5)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-22 12:24:14,390 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2020-08-22 12:24:14,391 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2020-08-22 12:24:14,391 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2020-08-22 12:24:14,391 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2020-08-22 12:24:14,391 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2020-08-22 12:24:14,392 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2020-08-22 12:24:14,392 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2020-08-22 12:24:14,424 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2020-08-22 12:24:51,372 INFO com.netflix.config.ChainedDynamicProperty$ChainLink [http-nio-8080-exec-3] Flipping property: usuariomicro.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-22 12:24:51,405 INFO com.netflix.util.concurrent.ShutdownEnabledTimer [http-nio-8080-exec-3] Shutdown hook installed for: NFLoadBalancer-PingTimer-usuariomicro
+2020-08-22 12:24:51,406 INFO com.netflix.loadbalancer.BaseLoadBalancer [http-nio-8080-exec-3] Client: usuariomicro instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=usuariomicro,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-08-22 12:24:51,414 INFO com.netflix.loadbalancer.DynamicServerListLoadBalancer [http-nio-8080-exec-3] Using serverListUpdater PollingServerListUpdater
+2020-08-22 12:24:51,419 INFO com.netflix.loadbalancer.DynamicServerListLoadBalancer [http-nio-8080-exec-3] DynamicServerListLoadBalancer for client usuariomicro initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=usuariomicro,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2bad0a93
+2020-08-22 12:28:44,091 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-08-22 12:33:44,095 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-08-22 12:33:52,462 INFO com.netflix.config.ChainedDynamicProperty$ChainLink [PollingServerListUpdater-0] Flipping property: usuariomicro.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-08-22 12:38:44,097 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2020-08-22 12:39:32,556 INFO com.netflix.loadbalancer.PollingServerListUpdater$LazyHolder$2 [Thread-15] Shutting down the Executor Pool for PollingServerListUpdater
+2020-08-22 12:39:32,557 WARN com.netflix.discovery.DiscoveryClient$3 [SpringContextShutdownHook] Saw local status change event StatusChangeEvent [timestamp=1598114372557, current=DOWN, previous=UP]
+2020-08-22 12:39:32,559 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAYBALANCEADOR/10.0.0.6:gatewaybalanceador:8080: registering service...
+2020-08-22 12:39:32,577 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_GATEWAYBALANCEADOR/10.0.0.6:gatewaybalanceador:8080 - registration status: 204
+2020-08-22 12:39:32,600 INFO com.netflix.util.concurrent.ShutdownEnabledTimer [SpringContextShutdownHook] Shutdown hook removed for: NFLoadBalancer-PingTimer-usuariomicro
+2020-08-22 12:39:32,603 INFO com.netflix.util.concurrent.ShutdownEnabledTimer [SpringContextShutdownHook] Exception caught (might be ok if at shutdown)
+java.lang.IllegalStateException: Shutdown in progress
+	at java.base/java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
+	at java.base/java.lang.Runtime.removeShutdownHook(Runtime.java:244)
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70)
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:632)
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:883)
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:579)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:551)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:92)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:579)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:551)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:512)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:949)
+2020-08-22 12:39:32,621 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Shutting down DiscoveryClient ...
+2020-08-22 12:39:35,623 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Unregistering ...
+2020-08-22 12:39:35,627 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_GATEWAYBALANCEADOR/10.0.0.6:gatewaybalanceador:8080 - deregister  status: 200
+2020-08-22 12:39:35,646 INFO com.netflix.discovery.DiscoveryClient [SpringContextShutdownHook] Completed shut down of DiscoveryClient
