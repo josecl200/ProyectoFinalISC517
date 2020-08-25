@@ -1,7 +1,6 @@
 package edu.pucmm.josecl200.finalavanzada.usuariomicro.entidades;
 
 import lombok.*;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -14,4 +13,5 @@ public class Usuario implements Serializable {
     @Column(unique = true)
     private String correo;
     private boolean empleado;
+    private boolean admin;
 }

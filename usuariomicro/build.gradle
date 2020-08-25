@@ -37,8 +37,9 @@ dependencies {
 	implementation 'net.logstash.logback:logstash-logback-encoder:6.4'
 	implementation 'org.springframework.boot:spring-boot-starter-mail'
 	implementation 'com.sendgrid:sendgrid-java:4.0.1'
-    implementation 'com.h2database:h2'
-
+	implementation 'io.jsonwebtoken:jjwt-api:0.10.5'
+	implementation 'io.jsonwebtoken:jjwt-impl:0.10.5'
+	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.10.5'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}

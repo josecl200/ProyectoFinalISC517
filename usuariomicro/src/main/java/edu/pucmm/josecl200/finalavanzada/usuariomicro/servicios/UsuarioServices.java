@@ -42,6 +42,16 @@ public class UsuarioServices {
         }
     }
 
+    public void crearUsuarioAdmin(){
+        Usuario admin = new Usuario();
+        admin.setUsername("root");
+        admin.setPassword(org.apache.commons.codec.digest.DigestUtils.sha256Hex("toor"));
+        admin.setEmpleado(true);
+        admin.setNombre("Root");
+        admin.setCorreo("admin@admin.com");
+        repo.save(admin);
+    }
+
     public List<Usuario> getAllUsers(){
         return repo.findAll();
     }
@@ -50,11 +60,12 @@ public class UsuarioServices {
     }
 
     public boolean sendRegistrationEmail(Usuario user){
-        Email desdeEmail = new Email("20160138z@ce.pucmm.edu.do");
+        Email desdeEmail = new Email("20160138@ce.pucmm.edu.do");
         String asuntoEmail = "Creacion de cuenta";
         Email paraEmail = new Email(user.getCorreo());
         Content cuerpoEmail = new Content("text/plain", "El usuario registrado fue:: " + user.getUsername());
         Mail email = new Mail(desdeEmail, asuntoEmail, paraEmail, cuerpoEmail);
+        System.out.println("APIKEY E IGUAL A "+System.getenv("SENDGRID_API_KEY"));
         SendGrid sg = new SendGrid(System.getenv("SENDGRID_API_KEY"));
         Request request = new Request();
         try {
