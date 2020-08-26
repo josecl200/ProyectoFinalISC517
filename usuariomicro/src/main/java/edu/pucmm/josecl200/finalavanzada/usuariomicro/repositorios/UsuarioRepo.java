@@ -10,7 +10,5 @@ import java.util.List;
 @Repository
 public interface UsuarioRepo extends JpaRepository<Usuario,String> {
     Usuario findByUsername(String username);
-
-    @Override
     List<Usuario> findUsuariosByEmpleado(boolean empleado);
 }

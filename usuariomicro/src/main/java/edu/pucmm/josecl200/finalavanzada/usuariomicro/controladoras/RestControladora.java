@@ -14,7 +14,6 @@ import java.util.Date;
 
 @RestController @RequestMapping("/")
 public class RestControladora {
-    private String llaveSecreta="bruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomento";
 
     @Autowired
     private UsuarioServices usuarioServices;
@@ -36,9 +35,15 @@ public class RestControladora {
     }
 
     @GetMapping("/empleados")
-    public Object getUsuarios(){
-        return usuarioServices.getAllUsers();
+    public Object getEmpleados(){
+        return usuarioServices.getAllEmpleados();
     }
+    @GetMapping("/clientes")
+    public Object getClientes(){
+        return usuarioServices.getAllClientes();
+    }
+
+
 
     @DeleteMapping("/{usuario}")
     public Usuario deleteUsuario(@PathVariable("usuario") String idUsuario){
@@ -63,7 +68,7 @@ public class RestControladora {
         String token;
         Usuario usuario = usuarioServices.getUser(username.getUsername());
         System.out.println(username);
-        if(usuario==null && !usuario.getPassword().equals(org.apache.commons.codec.digest.DigestUtils.sha256Hex(username.getPassword()))){
+        if(usuario==null || !usuario.getPassword().equals(org.apache.commons.codec.digest.DigestUtils.sha256Hex(username.getPassword()))){
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
         }
         token = generarToken(usuario);
@@ -71,6 +76,7 @@ public class RestControladora {
     }
 
     private String generarToken(Usuario usuario) {
+        String llaveSecreta = "bruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomentobruhmomento";
         String token = Jwts
                 .builder()
                 .setId("estimadoWT")
@@ -79,7 +85,7 @@ public class RestControladora {
                 .claim("admin",usuario.isEmpleado())
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + 600000))
-                .signWith(SignatureAlgorithm.HS512,
+                .signWith(SignatureAlgorithm.PS256,
                         llaveSecreta.getBytes()).compact();
 
         return token;

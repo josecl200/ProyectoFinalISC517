@@ -58,7 +58,9 @@ public class UsuarioServices {
     public Usuario getUser(String username){
         return repo.findByUsername(username);
     }
-    public List<Usuario> getAllEmpleados(){return repo.findUsuariosByEmpleado(true)}
+    public List<Usuario> getAllEmpleados(){return repo.findUsuariosByEmpleado(true);}
+    public List<Usuario> getAllClientes(){return repo.findUsuariosByEmpleado(false);}
+
 
     public boolean sendRegistrationEmail(Usuario user){
         Email desdeEmail = new Email("20160138@ce.pucmm.edu.do");
