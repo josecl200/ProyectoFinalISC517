@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f1b3098-7742-4386-a8ea-f52897f6525a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/servicios/CompraServicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/CompramicroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/CompramicroApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/controladoras/RestControladora.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/controladoras/RestControladora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Parametro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/CompraRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/CompraRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/ParametroRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/ProductoRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/servicios/EventoServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/servicios/EventoServicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewaybalanceador/logs/spring-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaybalanceador/logs/spring-logger.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microdiscovery/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microdiscovery/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuariomicro/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/controladoras/RestControladora.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/controladoras/RestControladora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/repositorios/UsuarioRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/repositorios/UsuarioRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/servicios/UsuarioServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/servicios/UsuarioServices.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gacds9J9RWIs2uo7eLKEeI328U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Telegram Desktop/microservicios-springboot-master" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f1b3098-7742-4386-a8ea-f52897f6525a" name="Default Changelist" comment="" />
+      <created>1598356234334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598356234334</updated>
+      <workItem from="1598356235492" duration="3554000" />
+      <workItem from="1598361391063" duration="20034000" />
+      <workItem from="1598421827963" duration="190000" />
+      <workItem from="1598422066221" duration="497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="96" width="428" height="474" key="FileChooserDialogImpl" timestamp="1598398146916">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="96" width="428" height="474" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1598398146916" />
+    <state x="393" y="130" width="579" height="488" key="find.popup" timestamp="1598361010924">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="393" y="130" width="579" height="488" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1598361010924" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598364656678">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1598364656678" />
+  </component>
+</project>

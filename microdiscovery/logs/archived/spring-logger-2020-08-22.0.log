@@ -1,0 +1,388 @@
+2020-08-22 11:55:10,513 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 11:55:10,534 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:11:10,620 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:11:10,636 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:12:19,558 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:12:19,571 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:17:31,547 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:17:31,563 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:18:42,092 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:18:42,108 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderAction - Could not create an Appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]. ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@48:90 - ActionException in Action for tag [appender] ch.qos.logback.core.joran.spi.ActionException: ch.qos.logback.core.util.DynamicClassLoadingException: Failed to instantiate type net.logstash.logback.appender.LogstashTcpSocketAppender
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [elk]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:306)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:140)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:212)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:117)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:74)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:80)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at edu.pucmm.josecl200.finalavanzada.microdiscovery.MicroDiscoveryApplication.main(MicroDiscoveryApplication.java:12)
+2020-08-22 12:23:14,645 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-22 12:23:15,877 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888/
+2020-08-22 12:23:16,534 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=microdiscovery, profiles=[default], label=null, version=null, state=null
+2020-08-22 12:23:16,538 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:/var/centralConf/microdiscovery.properties'}]
+2020-08-22 12:23:16,698 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-22 12:23:20,305 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2020-08-22 12:23:20,307 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-22 12:23:20,308 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-22 12:23:20,581 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-22 12:23:20,717 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-22 12:23:20,718 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-22 12:23:20,793 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3375b118
+2020-08-22 12:23:21,415 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [main] Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-08-22 12:23:22,225 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-22 12:23:22,225 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-22 12:23:23,591 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2020-08-22 12:23:23,637 INFO org.springframework.boot.StartupInfoLogger [main] Started MicroDiscoveryApplication in 10.877 seconds (JVM running for 13.009)
+2020-08-22 12:23:24,158 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(9)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-22 12:39:36,606 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2020-08-22 12:39:36,614 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2020-08-22 12:39:36,615 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2020-08-22 12:39:36,617 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.

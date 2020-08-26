@@ -35,6 +35,11 @@ public class RestControladora {
             return usuarioServices.getUser(usuario);
     }
 
+    @GetMapping("/empleados")
+    public Object getUsuarios(){
+        return usuarioServices.getAllUsers();
+    }
+
     @DeleteMapping("/{usuario}")
     public Usuario deleteUsuario(@PathVariable("usuario") String idUsuario){
         Usuario user=usuarioServices.getUser(idUsuario);

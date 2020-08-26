@@ -1,0 +1,62 @@
+2020-08-24 09:10:43,966 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-24 09:10:45,283 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888/
+2020-08-24 09:10:45,767 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=microdiscovery, profiles=[default], label=null, version=null, state=null
+2020-08-24 09:10:45,810 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:/var/centralConf/microdiscovery.properties'}]
+2020-08-24 09:10:46,024 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-24 09:10:48,835 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2020-08-24 09:10:48,836 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 09:10:48,837 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-24 09:10:48,947 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 09:10:49,028 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-24 09:10:49,029 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-24 09:10:49,042 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@56ec6960
+2020-08-24 09:10:49,479 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [main] Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-08-24 09:10:50,014 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-24 09:10:50,015 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-24 09:10:51,326 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2020-08-24 09:10:51,476 INFO org.springframework.boot.StartupInfoLogger [main] Started MicroDiscoveryApplication in 9.149 seconds (JVM running for 11.393)
+2020-08-24 09:10:52,272 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 09:26:55,385 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2020-08-24 09:26:55,391 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2020-08-24 09:26:55,393 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2020-08-24 09:26:55,394 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2020-08-24 09:27:52,995 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-24 09:27:55,529 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888/
+2020-08-24 09:27:56,481 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=microdiscovery, profiles=[default], label=null, version=null, state=null
+2020-08-24 09:27:56,485 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:/var/centralConf/microdiscovery.properties'}]
+2020-08-24 09:27:56,800 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-24 09:28:04,459 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2020-08-24 09:28:04,485 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 09:28:04,487 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-24 09:28:05,433 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 09:28:05,708 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-24 09:28:05,714 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-24 09:28:05,741 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@77ce88c4
+2020-08-24 09:28:07,024 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [main] Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-08-24 09:28:09,192 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-24 09:28:09,195 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-24 09:28:14,435 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2020-08-24 09:28:14,736 INFO org.springframework.boot.StartupInfoLogger [main] Started MicroDiscoveryApplication in 23.11 seconds (JVM running for 24.394)
+2020-08-24 09:28:15,425 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(13)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 10:39:46,145 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2020-08-24 10:39:46,151 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2020-08-24 10:39:46,152 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
+2020-08-24 10:39:46,153 INFO com.netflix.servo.monitor.StatsMonitor [SpringContextShutdownHook] Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
+2020-08-24 23:35:18,179 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-24 23:35:19,335 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:8888/
+2020-08-24 23:35:19,672 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=microdiscovery, profiles=[default], label=null, version=null, state=null
+2020-08-24 23:35:19,676 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:/var/centralConf/microdiscovery.properties'}]
+2020-08-24 23:35:19,790 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-08-24 23:35:22,509 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8761"]
+2020-08-24 23:35:22,511 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-24 23:35:22,512 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-24 23:35:22,741 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-24 23:35:22,880 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-24 23:35:22,882 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-24 23:35:22,900 INFO com.netflix.config.DynamicPropertyFactory [main] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@ce561cc
+2020-08-24 23:35:23,795 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [main] Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-08-24 23:35:25,144 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2020-08-24 23:35:25,144 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-24 23:35:26,975 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8761"]
+2020-08-24 23:35:27,028 INFO org.springframework.boot.StartupInfoLogger [main] Started MicroDiscoveryApplication in 11.254 seconds (JVM running for 13.624)
+2020-08-24 23:35:27,418 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'

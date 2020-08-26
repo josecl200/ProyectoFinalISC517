@@ -1,0 +1,98 @@
+2020-08-23 15:09:32,198 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-23 15:09:32,759 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: native
+2020-08-23 15:09:33,795 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1c34792d-e3f8-3ff5-80c8-31c791cdd68f
+2020-08-23 15:09:34,054 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-08-23 15:09:34,062 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-23 15:09:34,063 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-23 15:09:34,064 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 15:09:34,158 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-23 15:09:34,159 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1382 ms
+2020-08-23 15:09:34,494 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 15:09:35,138 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-23 15:09:35,216 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8888"]
+2020-08-23 15:09:35,234 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-23 15:09:35,257 INFO org.springframework.boot.StartupInfoLogger [main] Started ConfigserverApplication in 3.871 seconds (JVM running for 5.297)
+2020-08-23 15:09:35,774 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 15:09:35,775 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2020-08-23 15:09:35,782 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 7 ms
+2020-08-23 15:22:08,372 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: file:/var/centralConf/microdiscovery.properties
+2020-08-23 15:22:13,147 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-2] Adding property source: file:/var/centralConf/microdiscovery.properties
+2020-08-23 15:22:34,489 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-3] Adding property source: file:/var/centralConf/gatewaybalanceador.properties
+2020-08-23 15:22:39,785 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-4] Adding property source: file:/var/centralConf/gatewaybalanceador.properties
+2020-08-23 15:24:36,734 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-7] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 15:24:42,755 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-8] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 15:55:52,300 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-9] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 15:59:58,584 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 16:04:23,773 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-3] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 16:09:43,715 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-5] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 19:32:37,107 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-23 19:41:14,179 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-23 19:41:15,750 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: native
+2020-08-23 19:41:18,004 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1c34792d-e3f8-3ff5-80c8-31c791cdd68f
+2020-08-23 19:41:18,529 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-08-23 19:41:18,542 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-23 19:41:18,544 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-23 19:41:18,546 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 19:41:18,864 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-23 19:41:18,867 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3083 ms
+2020-08-23 19:41:19,618 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 19:41:21,311 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-23 19:41:21,500 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8888"]
+2020-08-23 19:41:21,603 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-23 19:41:21,657 INFO org.springframework.boot.StartupInfoLogger [main] Started ConfigserverApplication in 10.561 seconds (JVM running for 14.941)
+2020-08-23 19:41:22,552 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 19:41:22,569 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2020-08-23 19:41:22,610 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 40 ms
+2020-08-23 19:41:37,599 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: file:/var/centralConf/gatewaybalanceador.properties
+2020-08-23 19:41:41,762 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-2] Adding property source: file:/var/centralConf/microdiscovery.properties
+2020-08-23 19:41:51,721 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-3] Adding property source: file:/var/centralConf/gatewaybalanceador.properties
+2020-08-23 19:41:52,360 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-4] Adding property source: file:/var/centralConf/microdiscovery.properties
+2020-08-23 19:42:01,613 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-5] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 19:43:26,829 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-10] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 19:44:07,311 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-8] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 20:58:55,311 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-23 20:59:00,109 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-23 20:59:00,596 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: native
+2020-08-23 20:59:01,635 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1c34792d-e3f8-3ff5-80c8-31c791cdd68f
+2020-08-23 20:59:01,901 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-08-23 20:59:01,915 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-23 20:59:01,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-23 20:59:01,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 20:59:02,016 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-23 20:59:02,016 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1402 ms
+2020-08-23 20:59:02,343 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 20:59:02,958 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-23 20:59:03,043 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8888"]
+2020-08-23 20:59:03,062 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-23 20:59:03,086 INFO org.springframework.boot.StartupInfoLogger [main] Started ConfigserverApplication in 3.669 seconds (JVM running for 4.694)
+2020-08-23 20:59:03,680 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 20:59:03,683 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2020-08-23 20:59:03,693 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 9 ms
+2020-08-23 20:59:32,254 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 21:05:25,145 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-3] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 21:07:44,424 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-5] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 21:12:28,159 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-23 21:14:13,297 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2020-08-23 21:14:13,868 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: native
+2020-08-23 21:14:15,026 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=1c34792d-e3f8-3ff5-80c8-31c791cdd68f
+2020-08-23 21:14:15,401 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2020-08-23 21:14:15,411 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8888"]
+2020-08-23 21:14:15,413 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-08-23 21:14:15,414 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-23 21:14:15,560 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-08-23 21:14:15,561 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1665 ms
+2020-08-23 21:14:16,036 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-23 21:14:16,842 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-08-23 21:14:16,935 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8888"]
+2020-08-23 21:14:16,956 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-23 21:14:16,984 INFO org.springframework.boot.StartupInfoLogger [main] Started ConfigserverApplication in 4.502 seconds (JVM running for 5.75)
+2020-08-23 21:14:17,159 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-23 21:14:17,166 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2020-08-23 21:14:17,180 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 11 ms
+2020-08-23 21:14:33,809 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-1] Adding property source: file:/var/centralConf/microdiscovery.properties
+2020-08-23 21:14:39,628 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-3] Adding property source: file:/var/centralConf/microdiscovery.properties
+2020-08-23 21:20:28,473 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-4] Adding property source: file:/var/centralConf/gatewaybalanceador.properties
+2020-08-23 21:20:35,189 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-5] Adding property source: file:/var/centralConf/gatewaybalanceador.properties
+2020-08-23 21:20:44,953 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-6] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 22:23:30,263 INFO org.springframework.cloud.config.server.environment.NativeEnvironmentRepository [http-nio-8888-exec-8] Adding property source: file:/var/centralConf/usuariomicro.properties
+2020-08-23 23:31:46,880 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
