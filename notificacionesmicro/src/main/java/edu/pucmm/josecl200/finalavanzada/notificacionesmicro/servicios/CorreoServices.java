@@ -1,9 +1,11 @@
 package edu.pucmm.josecl200.finalavanzada.notificacionesmicro.servicios;
 
 import com.sendgrid.*;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
+@Service
 public class CorreoServices {
     public void sendEmail(String username, String username_email, String subject, String content){
         Email desdeEmail = new Email("20160138@ce.pucmm.edu.do");
