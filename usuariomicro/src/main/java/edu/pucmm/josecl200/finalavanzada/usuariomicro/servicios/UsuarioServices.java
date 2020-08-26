@@ -68,7 +68,6 @@ public class UsuarioServices {
         Email paraEmail = new Email(user.getCorreo());
         Content cuerpoEmail = new Content("text/plain", "El usuario registrado fue:: " + user.getUsername());
         Mail email = new Mail(desdeEmail, asuntoEmail, paraEmail, cuerpoEmail);
-        System.out.println("APIKEY E IGUAL A "+System.getenv("SENDGRID_API_KEY"));
         SendGrid sg = new SendGrid(System.getenv("SENDGRID_API_KEY"));
         Request request = new Request();
         try {

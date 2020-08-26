@@ -6,6 +6,8 @@ import edu.pucmm.josecl200.finalavanzada.compramicro.servicios.CompraServicios;
 import edu.pucmm.josecl200.finalavanzada.compramicro.servicios.EventoServicios;
 import net.sf.jasperreports.engine.JRException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
@@ -35,11 +37,11 @@ public class RestControladora {
         return compraServicios.getAllCompras();
     }
 
-    @CrossOrigin
     @PostMapping("/compras")
-    public void realizarVenta(@RequestBody Evento evento,@RequestParam String usuario, HttpServletResponse response) throws IOException, JRException {
-        Compra compra=compraServicios.crearVenta(evento,usuario);
-        compraServicios.enviarEmailConfirmacionVenta(compra);
-        compraServicios.exportReport("pdf",response);
+    public ResponseEntity<String> realizarVenta(@RequestBody Compra compra) throws IOException, JRException {
+        compraServicios.saveCompra(compra);
+        return new  ResponseEntity<>(HttpStatus.CREATED);
     }
+
+
 }

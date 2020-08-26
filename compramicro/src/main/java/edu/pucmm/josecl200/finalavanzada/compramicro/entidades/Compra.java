@@ -16,9 +16,22 @@ import java.util.Set;
 public class Compra implements Serializable {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private float monto;
+    private String nombre;
+    private String factura;
+    private String transaccion;
+    private String estatusPago;
+    private BigDecimal montoCompra;
+    private BigDecimal montoFee;
+    private BigDecimal montoEnvio;
+    private BigDecimal montoManejo;
+    private String emailComprador;
+    private Date fechaCompra;
+    private String vendedor;
     private String username;
     private LocalDateTime fecha;
-    @ManyToOne
-    private Evento evento;
+    private String direccion;
+    private String zip;
+    private String estado;
+    private String ciudad;
+    private String user;
 }

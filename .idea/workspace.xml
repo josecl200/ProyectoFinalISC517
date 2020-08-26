@@ -19,28 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f1b3098-7742-4386-a8ea-f52897f6525a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/servicios/CompraServicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/CompramicroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/CompramicroApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/controladoras/RestControladora.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/controladoras/RestControladora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Compra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Parametro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/entidades/Producto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/CompraRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/CompraRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/ParametroRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/repositorios/ProductoRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/servicios/EventoServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/compramicro/src/main/java/edu/pucmm/josecl200/finalavanzada/compramicro/servicios/EventoServicios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewaybalanceador/logs/spring-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaybalanceador/logs/spring-logger.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microdiscovery/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microdiscovery/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuariomicro/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/controladoras/RestControladora.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/controladoras/RestControladora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/repositorios/UsuarioRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/repositorios/UsuarioRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/servicios/UsuarioServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuariomicro/src/main/java/edu/pucmm/josecl200/finalavanzada/usuariomicro/servicios/UsuarioServices.java" afterDir="false" />
-    </list>
+    <list default="true" id="6f1b3098-7742-4386-a8ea-f52897f6525a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +60,7 @@
       <workItem from="1598361391063" duration="20034000" />
       <workItem from="1598421827963" duration="190000" />
       <workItem from="1598422066221" duration="497000" />
+      <workItem from="1598466859079" duration="287000" />
     </task>
     <servers />
   </component>
